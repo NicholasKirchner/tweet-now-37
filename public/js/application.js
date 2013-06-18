@@ -7,6 +7,7 @@ $(document).ready(function() {
       type: 'POST',
       data: { tweet: $(this).parent().find("textarea").val() }
       }).done(function(response) {
+        $(".response").append(response);
         console.log(response);
       });
   });

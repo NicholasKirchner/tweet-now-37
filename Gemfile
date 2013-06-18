@@ -18,6 +18,7 @@ gem 'rake'
 gem 'shotgun'
 
 gem 'twitter'
+gem 'awesome_print'
 
 group :test do
   gem 'faker'
